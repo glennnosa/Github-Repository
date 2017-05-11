@@ -1,0 +1,4 @@
+hello|hola|bonjour|guten tag
+bye|adios|au revoir|tsechuss
+yes|si|oui|ja
+no|no|non|nein

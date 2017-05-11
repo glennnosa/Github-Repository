@@ -1,0 +1,13 @@
+good|bueno|bien|idk
+no|no|non|nein
+yes|si|oui|ja
+hello|hola|bonjour|guten tag
+english|ingles|idk|idk
+orange|naranja|no|no
+dog|perro|idk|idk
+pen|idk|idk|idk
+spanish|espanol|idk|idk
+car|carro|idk|idk
+face|boca|idk|idk
+word|idk|idk|idk
+head|cabeza|idk|idk
