@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SDL</id>
+    <version>1.2.15.16</version>
+    <title>Simple DirectMedia Layer (SDL)</title>
+    <authors>Sam Lantinga,  SDL contributors</authors>
+    <owners>Sam Lantinga,  SDL contributors</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</licenseUrl>
+    <projectUrl>http://github.com/coapp-packages/SDL</projectUrl>
+    <iconUrl>http://www.libsdl.org/images/SDL_logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.
+Homepage: http://www.libsdl.org/</description>
+    <summary>Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.</summary>
+    <releaseNotes>Release of 1.2.15 libraries.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>sdl native CoApp nativepackage</tags>
+    <dependencies>
+      <dependency id="SDL.redist" version="1.2.15.16" />
+    </dependencies>
+  </metadata>
+</package>

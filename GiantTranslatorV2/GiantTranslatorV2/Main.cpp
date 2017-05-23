@@ -4,8 +4,6 @@
 #include <sstream>
 #include "Header.h"
 
-
-
 int main(){
 	build();
 	std::cout << "Welcome to the Giant Translator." << std::endl;
@@ -17,12 +15,12 @@ int main(){
 			build();
 		}
 		else if (choice == "translate"){
-			translate();
 			build();
+			translate();
 		}
 		else if (choice == "print"){
-			print();
 			build();
+			print();
 		}
 		else if (choice == "no")
 			running = false;
