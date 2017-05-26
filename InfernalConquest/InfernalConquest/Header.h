@@ -9,6 +9,7 @@ void battle_flow(std::string e_name, int e_lvl);	//main battle flow
 int attack();										//player attack screen
 void player_turn();									//player turn phase
 void enemy_turn();									//enemy turn phase
+void death();										//death of player
 
 //global variable declarations
 extern int playerHealth;						//player health
@@ -20,4 +21,7 @@ extern int stat[];								//player's stats
 extern int max_health;							//player max health
 extern int damage;								//damage dealt
 extern int tempDam, tempDef;					//temp stats
+extern double damage_absorb;					//modifier for damage taken 
+extern std::string enemy_name, player_name;		//player name and enemy name
+extern int enemy_level;							//enemy level
 #endif 

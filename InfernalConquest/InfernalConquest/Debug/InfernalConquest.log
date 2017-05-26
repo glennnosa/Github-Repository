@@ -1,16 +1,11 @@
-﻿Build started 5/23/2017 11:14:19 AM.
+﻿Build started 5/25/2017 11:22:45 AM.
      1>Project "C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\InfernalConquest\InfernalConquest.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\packages\SDL.1.2.15.16\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_SDL /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Battle.cpp Main.cpp
-         Main.cpp
-     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\main.cpp(15): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
-     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\main.cpp(16): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
-     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\main.cpp(17): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
-     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\main.cpp(18): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
-     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\main.cpp(19): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
-     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\main.cpp(26): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\packages\SDL.1.2.15.16\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_SDL /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Battle.cpp
          Battle.cpp
-         Generating Code...
+     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\battle.cpp(11): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\battle.cpp(30): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gn129659\desktop\github repository\infernalconquest\infernalconquest\battle.cpp(35): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\Debug\InfernalConquest.exe" /INCREMENTAL /NOLOGO "C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/Win32\v120\Debug\SDL.lib" "C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/Win32\v120\Debug\Application\NoStdioRedirect\SDLmain.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\Debug\InfernalConquest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gn129659\Desktop\Github Repository\InfernalConquest\Debug\InfernalConquest.lib" /MACHINE:X86 Debug\Battle.obj
          Debug\Interface.obj
@@ -20,4 +15,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.10
+Time Elapsed 00:00:03.64
